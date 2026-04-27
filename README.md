@@ -59,3 +59,15 @@ Join our community of developers creating universal apps.
 
 ## Tabs in the app
  documentation used: https://docs.expo.dev/router/advanced/native-tabs/
+
+
+ ### Sentry
+
+ I'm using sentry for eeror handling, so that if a user gets any kind of error i get notified immiedietly.
+https://www.youtube.com/watch?v=g5qHEi9M1rw&list=PLaz2SoGe61RptUFoBr0jge1662vEbdv7r
+ Using sentry Logs:
+ -  sents logs to the sentry cloud/server
+ - searchable logs
+ - structured (with tags)
+ - linkes to traces, errors, replays
+
