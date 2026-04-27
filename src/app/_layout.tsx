@@ -20,7 +20,8 @@ export default function RootLayout() {
   return (
     <ClerkProvider publishableKey={publishableKey}  tokenCache={tokenCache} > 
       <Stack screenOptions={{headerShown: false}}>
-        <Stack.Screen name="index" options={{ title: "Home" }} />
+        <Stack.Screen name="(tabs)"  /> 
+        {/* deleted options={{ title: "Home" }} */}
       </Stack>
     </ClerkProvider>
   );
