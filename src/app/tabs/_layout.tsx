@@ -1,0 +1,26 @@
+import { View, Text } from 'react-native'
+import React from 'react'
+import { NativeTabs } from 'expo-router/unstable-native-tabs'
+
+const TabsLayout = () => {
+  return (
+    <NativeTabs>
+      <NativeTabs.Trigger name='index'>
+        <NativeTabs.Trigger.Label>Chats</NativeTabs.Trigger.Label>
+        <NativeTabs.Trigger.Icon sf='message' md="chat"/>
+      </NativeTabs.Trigger>
+
+      <NativeTabs.Trigger name='explore'>
+        <NativeTabs.Trigger.Label>Explore</NativeTabs.Trigger.Label>
+        <NativeTabs.Trigger.Icon sf='safari' md="explore"/>
+      </NativeTabs.Trigger>
+
+      <NativeTabs.Trigger name='profile'>
+        <NativeTabs.Trigger.Label>Profile</NativeTabs.Trigger.Label>
+        <NativeTabs.Trigger.Icon sf='person.fill' md="person"/>
+      </NativeTabs.Trigger>
+    </NativeTabs>
+  )
+}
+
+export default TabsLayout
