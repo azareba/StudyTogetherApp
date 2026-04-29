@@ -22,7 +22,7 @@
     "web": {
       "output": "static",
       "favicon": "./assets/images/favicon.png",
-      "bundler": "metro"   
+      "bundler": "metro"
     },
     "plugins": [
       "expo-router",
@@ -38,7 +38,15 @@
       ],
       "expo-font",
       "expo-web-browser",
-      "expo-image"
+      "expo-image",
+      [
+        "@sentry/react-native/expo",
+        {
+          "url": "https://sentry.io/",
+          "project": "study-buddy-app",
+          "organization": "anita-am"
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true,
